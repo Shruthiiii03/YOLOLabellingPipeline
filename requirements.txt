@@ -1,0 +1,4 @@
+flask
+dds-cloudapi_sdk
+pycocotools
+streamlit-drawable-canvas

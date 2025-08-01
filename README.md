@@ -44,9 +44,9 @@ YOLOLabellingPipeline/
 
 ### 1. Clone the repo
 
-### 2. Create a virtual environment
 
-### 3. Clone T-Rex into this repo
+
+### 2. Clone T-Rex into this repo
 
 This repo depends on the T-Rex model, which is not directly included.
 
@@ -54,6 +54,15 @@ Please clone it manually:
 
 ```bash
 git clone https://github.com/IDEA-Research/T-Rex.git
+```
+### 3. Create a python virtual environment
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+
+# to test whether the environment has been activated 
+which python # should point to `.venv/bin/python`
 ```
 
 ### 4. Install dependencies
@@ -64,7 +73,11 @@ pip install -r requirements.txt
 
 > There are separate `requirements.txt` in root and some folders (e.g., `gemini2/`). Install those too if needed.
 
-
+For example, 
+```
+cd T-Rex
+pip install -r requirements.txt
+```
 ---
 
 ## Running the App
@@ -83,7 +96,7 @@ Make sure to:
 
 ```bash
 cd st_app
-streamlit run labellingpipeline.py
+streamlit run labellingpipeline_st.py
 ```
 
 Then open the UI in your browser (usually http://localhost:8501).
