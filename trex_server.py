@@ -5,7 +5,7 @@ from dds_cloudapi_sdk import Config, Client
 from dds_cloudapi_sdk.tasks.v2_task import create_task_with_local_image_auto_resize
 
 app = Flask(__name__)
-TOKEN = "YOUR TOKEN"
+TOKEN = "0f1a0b99b3b5a6e0f92deeaacd7ea781"
 client = Client(Config(TOKEN))
 
 @app.route("/annotate", methods=["POST"])
