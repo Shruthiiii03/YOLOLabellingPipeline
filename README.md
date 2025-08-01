@@ -46,13 +46,24 @@ YOLOLabellingPipeline/
 
 ### 2. Create a virtual environment
 
-### 3. Install dependencies
+### 3. Clone T-Rex into this repo
+
+This repo depends on the T-Rex model, which is not directly included.
+
+Please clone it manually:
+
+```bash
+git clone https://github.com/IDEA-Research/T-Rex.git
+```
+
+### 4. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
 > There are separate `requirements.txt` in root and some folders (e.g., `gemini2/`). Install those too if needed.
+
 
 ---
 
