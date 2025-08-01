@@ -160,6 +160,9 @@ Each `.txt` file is named after the image and contains:
 
 ---
 
+## Limitations of the codebase
+- Works Locally on Lenovo Model Serial Number: PF-5M3JNS but runs into OS issues on mac
+
 ## Summary
 
 This was built as a fast way to prototype YOLO datasets using one-shot examples. Still has rough edges, but works well when reference images closely match the targets. 
