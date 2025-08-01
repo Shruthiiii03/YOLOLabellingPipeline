@@ -142,7 +142,7 @@ Each `.txt` file is named after the image and contains:
 
 ---
 
-## Known Limitations
+## Known Limitations of T-Rex
 
 | Limitation                  | Elaboration |
 |-----------------------------|----------------|
@@ -161,7 +161,7 @@ Each `.txt` file is named after the image and contains:
 ---
 
 ## Limitations of the codebase
-- Works Locally on Lenovo Model Serial Number: PF-5M3JNS but runs into OS issues on mac
+- T-Rex token is IP-locked, meaning it only works on one device. For every new device, please create a new token.
 
 ## Summary
 
