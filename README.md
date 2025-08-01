@@ -1,9 +1,9 @@
-# 🔍 YOLOLabellingPipeline
+# YOLOLabellingPipeline
 
 A lightweight pipeline to auto-generate YOLO-compatible annotations from reference images using **T-Rex** or optionally **Gemini** AI models. Combines a simple **Streamlit frontend** with a Flask-based backend and lets you generate bounding box labels with minimal effort.
 
 
-## 🧠 What This Project Does
+## What This Project Does
 
 - Lets user upload:
   - Reference image(s) of an object (e.g., bollards)
@@ -17,7 +17,7 @@ A lightweight pipeline to auto-generate YOLO-compatible annotations from referen
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 ```
 YOLOLabellingPipeline/
@@ -40,7 +40,7 @@ YOLOLabellingPipeline/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repo
 
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Running the App
+## Running the App
 
 ### Backend (Flask)
 
@@ -79,7 +79,7 @@ Then open the UI in your browser (usually http://localhost:8501).
 
 ---
 
-## 🧪 API – How `/annotate` Works
+## API – How `/annotate` Works
 
 The Flask backend exposes:
 
@@ -102,7 +102,7 @@ POST /annotate
 
 ---
 
-## 🎯 YOLO Output Format
+## YOLO Output Format
 
 Each `.txt` file is named after the image and contains:
 
@@ -118,7 +118,7 @@ Each `.txt` file is named after the image and contains:
 
 ---
 
-## ⚠️ Known Limitations
+## Known Limitations
 
 | Limitation                  | Elaboration |
 |-----------------------------|----------------|
@@ -128,7 +128,7 @@ Each `.txt` file is named after the image and contains:
 
 ---
 
-## 📦 Optional Improvements 
+## Optional Improvements 
 
 - Connect a database server where the data can be retrieved from 
 - Add CLI version for batch jobs
@@ -136,7 +136,7 @@ Each `.txt` file is named after the image and contains:
 
 ---
 
-## 📌 Summary
+## Summary
 
 This was built as a fast way to prototype YOLO datasets using one-shot examples. Still has rough edges, but works well when reference images closely match the targets. 
 
