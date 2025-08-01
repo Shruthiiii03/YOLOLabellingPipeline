@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  groundingdino:
+    build: ./grounding_dino
+    container_name: groundingdino
+    ports:
+      - "8001:8001"
+
+  gemini2:
+    build: ./gemini2
+    container_name: gemini2
+    ports:
+      - "8002:8002"
+    
+  streamlit:
+    build: ./st_app
+    container_name: streamlit_app
+    ports:
+      - "8501:8501"
+    depends_on:
+      - groundingdino
+      - gemini2

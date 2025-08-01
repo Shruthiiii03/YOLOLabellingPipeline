@@ -1,0 +1,8 @@
+#Sample image used for YOLO pipeline testing
+/sample_img
+
+#GroundingDino's pretrained weights
+/grounding_dino/weights
+
+#Environment files for gemini2.0
+/gemini2/.env
